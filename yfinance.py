@@ -1,18 +1,8 @@
+#
+# yfinance.py
+# -----------
 # API for Yahoo Finance
 #
-# Example usage:
-#
-#   >>> import yfinance
-#   >>> yfinance.get_all('GOOG')
-#   {'...
-#
-#   >>> yfinance.get_price('GOOG')
-#   '368.91'
-#
-#   >>> yfinance.get('GOOG', yfinance.price & yfinance.ebitda)
-#   {'price': '368.91', 'ebitda': '8.132B'}
-#
-
 import urllib
 
 class StockFormat(object):
